@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/itil"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="tanggal"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/date_for"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="12 - 12 - 2018"
+        android:textColor="#000"
+        android:textSize="15dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/subuh1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="22dp"
+            android:text="Subuh"
+            android:textColor="#000"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/fajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/dhuhr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="22dp"
+            android:text="Dhuhur"
+            android:textColor="#000"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/dhuhr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/asr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="22dp"
+            android:text="Ashar"
+            android:textColor="#000"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/asr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/maghrib1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="22dp"
+            android:text="Maghrib"
+            android:textColor="#000"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/maghrib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/isha1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="22dp"
+            android:text="Isya"
+            android:textColor="#000"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/isha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.00"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
